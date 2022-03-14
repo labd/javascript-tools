@@ -4,12 +4,17 @@
   "description": "Monorepository for internal JavaScript tooling",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "turbo run test",
+    "dev": "turbo run dev --parallel --no-cache",
+    "build": "turbo run build",
+    "prepublish": "lerna run prepublish"
   },
   "devDependencies": {
-    "turbo": "latest"
+    "turbo": "latest",
+    "lerna": "4.0.0"
   },
   "packageManager": "pnpm@6.27.1",
   "author": "Boris Besemer",
+  "private": true,
   "license": "ISC"
 }
