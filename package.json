@@ -1,0 +1,15 @@
+{
+  "name": "javascript-tooling",
+  "version": "0.0.1",
+  "description": "Monorepository for internal JavaScript tooling",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "turbo": "latest"
+  },
+  "packageManager": "pnpm",
+  "author": "Boris Besemer",
+  "license": "ISC"
+}
