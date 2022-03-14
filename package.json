@@ -16,5 +16,5 @@
   "packageManager": "pnpm@6.27.1",
   "author": "Boris Besemer",
   "private": true,
-  "license": "ISC"
+  "license": "MIT"
 }
