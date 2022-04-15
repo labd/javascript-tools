@@ -13,7 +13,7 @@
     "turbo": "latest",
     "lerna": "4.0.0"
   },
-  "packageManager": "pnpm@6.27.1",
+  "packageManager": "pnpm@6.32.6",
   "author": "Boris Besemer",
   "private": true,
   "license": "MIT"
