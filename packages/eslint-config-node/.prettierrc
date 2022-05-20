@@ -5,14 +5,5 @@
     "tabWidth": 2,
     "useTabs": false,
     "trailingComma": "es5",
-    "jsxBracketSameLine": false,
-    "overrides": [
-      {
-        "files": "*.scss",
-        "options": {
-          "tabWidth": 4,
-          "singleQuote": false
-        }
-      }
-    ]
+    "jsxBracketSameLine": false
   }
