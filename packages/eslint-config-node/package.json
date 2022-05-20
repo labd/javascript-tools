@@ -1,0 +1,28 @@
+{
+  "name": "@labdigital/eslint-config-node",
+  "version": "0.0.1",
+  "description": "Base ESLint config for JavaScript projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "5.25.0",
+    "@typescript-eslint/parser": "5.25.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-import-resolver-node": "0.3.6",
+    "eslint-import-resolver-typescript": "2.7.1"
+  },
+  "peerDependencies": {
+    "eslint": "8"
+  },
+  "author": {
+    "name": "Lab Digital B.V.",
+    "url": "https://labdigital.nl",
+    "organization": true
+  },
+  "license": "MIT",
+  "keywords": [
+    "eslint"
+  ]
+}
