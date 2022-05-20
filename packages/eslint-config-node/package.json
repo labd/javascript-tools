@@ -26,5 +26,8 @@
   "license": "MIT",
   "keywords": [
     "eslint"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
