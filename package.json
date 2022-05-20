@@ -6,12 +6,11 @@
   "scripts": {
     "test": "turbo run test",
     "dev": "turbo run dev --parallel --no-cache",
-    "build": "turbo run build",
-    "prepublish": "lerna run prepublish"
+    "build": "turbo run build"
   },
   "devDependencies": {
-    "turbo": "latest",
-    "lerna": "4.0.0"
+    "@changesets/cli": "2.22.0",
+    "turbo": "latest"
   },
   "packageManager": "pnpm@6.32.6",
   "author": "Boris Besemer",

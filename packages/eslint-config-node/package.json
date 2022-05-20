@@ -1,6 +1,6 @@
 {
   "name": "@labdigital/eslint-config-node",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Base ESLint config for JavaScript projects",
   "main": "index.js",
   "scripts": {
@@ -11,10 +11,12 @@
     "@typescript-eslint/parser": "5.25.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-import-resolver-node": "0.3.6",
-    "eslint-import-resolver-typescript": "2.7.1"
+    "eslint-import-resolver-typescript": "2.7.1",
+    "eslint-plugin-import": "2.26.0"
   },
   "peerDependencies": {
-    "eslint": "8"
+    "eslint": "8",
+    "typescript": "4"
   },
   "author": {
     "name": "Lab Digital B.V.",
