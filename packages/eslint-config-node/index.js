@@ -19,14 +19,14 @@ module.exports = {
   settings: {
     'import/parsers': {
       '@typescript-eslint/parser': ['.ts', '.tsx'],
-    }
+    },
     'import/resolver': {
       node: {},
       typescript: {
         directory: path.resolve('tsconfig.json'),
       },
     },
-  }
+  },
 
   ignorePatterns: ['*.js', '*.d.ts', 'node_modules/', '*.generated.ts'],
   rules: {

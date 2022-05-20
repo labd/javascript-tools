@@ -1,5 +1,11 @@
 # @labdigital/eslint-config-node
 
+## 0.0.3
+
+### Patch Changes
+
+- eba8520: Fix broken config
+
 ## 0.0.2
 
 ### Patch Changes
