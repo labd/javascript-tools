@@ -6,7 +6,7 @@ module.exports = {
     'prettier',
   ],
   parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint'],
+  plugins: ['@typescript-eslint', 'unused-imports'],
   root: true,
   rules: {
     '@typescript-eslint/no-non-null-assertion': 'error',
@@ -31,5 +31,6 @@ module.exports = {
         allow: ['error', 'info', 'warn'],
       },
     ],
+    'unused-imports/no-unused-imports': 'error',
   },
 }
