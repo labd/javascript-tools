@@ -32,9 +32,10 @@ module.exports = {
 
   ignorePatterns: ['*.js', '*.d.ts', 'node_modules/', '*.generated.ts'],
   rules: {
+    '@typescript-eslint/explicit-module-boundary-types': 'error',
+    '@typescript-eslint/no-floating-promises': ['error'],
     '@typescript-eslint/no-namespace': 'error',
     '@typescript-eslint/no-require-imports': ['error'],
     'no-duplicate-imports': ['error'],
-    '@typescript-eslint/no-floating-promises': ['error'],
   },
 }
