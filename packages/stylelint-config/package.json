@@ -1,0 +1,26 @@
+{
+  "name": "@labdigital/stylelint-config",
+  "version": "0.0.1",
+  "description": "Stylelint config for Lab Digital projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Lab Digital B.V.",
+    "url": "https://labdigital.nl",
+    "email": "opensource@labdigital.nl",
+    "organization": true
+  },
+  "license": "MIT",
+  "dependencies": {
+    "stylelint-config-idiomatic-order": "9.0.0",
+    "stylelint-config-prettier": "9.0.3",
+    "stylelint-config-recommended-scss": "8.0.0",
+    "stylelint-config-standard": "29.0.0"
+  },
+  "peerDependencies": {
+    "stylelint": ">=14"
+  }
+}
