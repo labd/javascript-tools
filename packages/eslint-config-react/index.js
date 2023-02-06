@@ -8,17 +8,40 @@ module.exports = {
     jest: true,
     node: true,
   },
-  plugins: ['@typescript-eslint', 'import', 'jest', 'react', 'react-hooks'],
+  plugins: ['import', 'jest', 'react', 'react-hooks'],
 
-  parser: '@typescript-eslint/parser',
+  parser: '@babel/eslint-parser',
   parserOptions: {
     ecmaVersion: 13,
     sourceType: 'module',
     project: path.resolve('tsconfig.json'),
-    warnOnUnsupportedTypeScriptVersion: true,
+    ecmaFeatures: {
+      jsx: true,
+    },
   },
 
   extends: ['prettier', 'plugin:jest/recommended'],
+
+  overrides: [
+    {
+      files: ['**/*.ts?(x)'],
+      parser: '@typescript-eslint/parser',
+      parserOptions: {
+        ecmaVersion: 13,
+        sourceType: 'module',
+        project: path.resolve('tsconfig.json'),
+        tsconfigRootDir: __dirname,
+        warnOnUnsupportedTypeScriptVersion: true,
+        ecmaFeatures: {
+          jsx: true,
+        },
+      },
+      plugins: ['@typescript-eslint'],
+      rules: {
+        '@typescript-eslint/no-namespace': 'error',
+      },
+    },
+  ],
 
   settings: {
     react: {
