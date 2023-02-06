@@ -55,7 +55,7 @@ module.exports = {
     },
   },
 
-  ignorePatterns: ['*.js', '*.d.ts', 'node_modules/', '*.generated.ts'],
+  ignorePatterns: ['*.d.ts', 'node_modules/', '*.generated.ts'],
   rules: {
     '@typescript-eslint/explicit-module-boundary-types': 'error',
     '@typescript-eslint/no-floating-promises': ['error'],
