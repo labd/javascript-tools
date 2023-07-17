@@ -1,5 +1,8 @@
 # @labdigital/eslint-config-node
 
+## 0.1.0
+- remove jest
+
 ## 0.0.5
 
 ### Patch Changes

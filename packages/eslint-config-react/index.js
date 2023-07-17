@@ -5,10 +5,9 @@ module.exports = {
     browser: true,
     commonjs: true,
     es6: true,
-    jest: true,
     node: true,
   },
-  plugins: ['import', 'jest', 'react', 'react-hooks'],
+  plugins: ['import', 'react', 'react-hooks'],
 
   parser: '@babel/eslint-parser',
   parserOptions: {
@@ -20,7 +19,7 @@ module.exports = {
     },
   },
 
-  extends: ['prettier', 'plugin:jest/recommended'],
+  extends: ['prettier'],
 
   overrides: [
     {
