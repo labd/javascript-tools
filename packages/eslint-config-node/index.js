@@ -3,10 +3,9 @@ const path = require('path')
 module.exports = {
   env: {
     node: true,
-    jest: true,
     commonjs: true,
   },
-  plugins: ['@typescript-eslint', 'import', 'jest'],
+  plugins: ['@typescript-eslint', 'import'],
 
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -16,7 +15,7 @@ module.exports = {
     warnOnUnsupportedTypeScriptVersion: true,
   },
 
-  extends: ['prettier', 'plugin:jest/recommended'],
+  extends: ['prettier'],
 
   settings: {
     'import/parsers': {
