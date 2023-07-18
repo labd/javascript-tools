@@ -1,7 +1,8 @@
 # @labdigital/eslint-config-node
 
 ## 0.1.0
-- remove jest
+
+- Remove jest so we can use vitest or other test runners
 
 ## 0.0.5
 
