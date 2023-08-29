@@ -1,6 +1,6 @@
 {
   "name": "@labdigital/eslint-config-node",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Base ESLint config for JavaScript projects",
   "main": "index.js",
   "scripts": {

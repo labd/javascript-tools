@@ -2,6 +2,12 @@
 
 ## 0.2.0
 
+### Minor Changes
+
+- 8238e1f: Update based on new internal tech standards
+
+## 0.2.0
+
 - Base the config on our [internal standards](https://tech-docs.labdigital.nl)
 
 ## 0.1.0
