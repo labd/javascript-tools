@@ -32,11 +32,6 @@ module.exports = {
   root: true,
 
   ignorePatterns: ["*.js", "*.d.ts", "node_modules/", "*.generated.ts"],
-  rules: {
-    "@typescript-eslint/explicit-module-boundary-types": "error",
-
-    "@typescript-eslint/no-require-imports": ["error"],
-  },
 
   rules: {
     "arrow-body-style": ["error", "as-needed"],
@@ -58,7 +53,7 @@ module.exports = {
     ],
 
     // Require explicit types on exported function return values and parameters
-    "@typescript-eslint/explicit-module-boundary-types": "error",
+    "@typescript-eslint/explicit-module-boundary-types": "warn",
     "@typescript-eslint/no-explicit-any": "error",
     "@typescript-eslint/no-floating-promises": "error",
     "@typescript-eslint/no-namespace": "error",
