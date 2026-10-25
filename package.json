@@ -9,11 +9,14 @@
     "build": "turbo run build"
   },
   "devDependencies": {
-    "@changesets/cli": "2.25.0",
-    "turbo": "latest"
+    "@changesets/cli": "3.0.3",
+    "turbo": "2.11.10"
   },
-  "packageManager": "pnpm@6.32.6",
+  "packageManager": "pnpm@10.34.7",
   "author": "Boris Besemer",
   "private": true,
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  }
 }

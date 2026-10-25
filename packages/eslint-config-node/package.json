@@ -18,6 +18,9 @@
     "eslint": "8",
     "typescript": "4"
   },
+  "engines": {
+    "node": ">=22"
+  },
   "author": {
     "name": "Lab Digital B.V.",
     "url": "https://labdigital.nl",
