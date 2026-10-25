@@ -1,2 +1,25 @@
 packages:
   - 'packages/**'
+
+savePrefix: ""
+autoInstallPeers: true
+minimumReleaseAge: 20160 # 14 days
+# Locked versions younger than 14 days when moving to pnpm 12; drop once they are older (after 2026-11-06).
+minimumReleaseAgeExclude:
+  - "@turbo/darwin-64@2.11.10"
+  - "@turbo/darwin-arm64@2.11.10"
+  - "@turbo/linux-64@2.11.10"
+  - "@turbo/linux-arm64@2.11.10"
+  - "@turbo/windows-64@2.11.10"
+  - "@turbo/windows-arm64@2.11.10"
+  - "baseline-browser-mapping@2.11.31"
+  - "browserslist@4.29.4"
+  - "cac@7.1.0"
+  - "caniuse-lite@1.0.30001819"
+  - "core-js-pure@3.51.0"
+  - "electron-to-chromium@1.5.463"
+  - "node-releases@2.0.60"
+  - "turbo@2.11.10"
+
+allowBuilds:
+  core-js-pure: false # postinstall only prints a funding message
